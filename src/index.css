@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-black text-white;
+  }
+}
+
+@layer utilities {
+  .animate-tilt {
+    animation: tilt 10s infinite linear;
+  }
+  
+  @keyframes tilt {
+    0%, 100% {
+      transform: rotate(0deg);
+    }
+    25% {
+      transform: rotate(1deg);
+    }
+    75% {
+      transform: rotate(-1deg);
+    }
+  }
+  
+  .glass-card {
+    @apply backdrop-blur-lg bg-white/10 border border-white/10;
+  }
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.animate-marquee {
+  animation: marquee 30s linear infinite;
+  display: flex;
+  gap: 2rem;
+}
+
