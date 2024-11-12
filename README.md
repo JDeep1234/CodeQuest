@@ -2,7 +2,7 @@
 
 **CodeQuest** is a web platform designed to showcase coding profiles and track the progress of users in the world of Data Structures and Algorithms (DSA). With **CodeQuest**, users can create personalized coding profiles, keep track of their DSA progress, and access a wide range of coding problems, all while learning and improving their coding skills.
 
-![DSA Tracker](path_to_your_dsa_tracker_image.png)
+![DSA Tracker](cq2.png)
 *Track your progress in DSA topics.*
 
 ## Features
@@ -12,7 +12,7 @@
 - **Problem Solving**: Access coding problems sorted by difficulty (Easy, Medium, Hard), and track the problems you've solved.
 - **Problem Stats**: Get detailed statistics about your progress in specific DSA topics and problems.
 
-![User Profile](path_to_your_profile_image.png)
+![User Profile](cq1.png)
 *Showcase your personalized profile.*
 
 ## Tech Stack
