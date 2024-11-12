@@ -42,7 +42,7 @@ const CodingProfiles = () => {
       tags: ["Algorithms", "System Design", "Interview Prep"]
     },
     {
-      title: "Algorithms by Abdul Bari",
+      title: "Algorithms",
       description: "Comprehensive video series covering all major algorithms and data structures with visual explanations.",
       icon: Youtube,
       color: "from-red-400 to-rose-500",
