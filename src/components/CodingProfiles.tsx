@@ -5,16 +5,16 @@ const CodingProfiles = () => {
   const profiles = [
     {
       platform: 'LeetCode',
-      username: 'johndev',
-      rating: '2100+',
-      solved: '500+',
-      contests: '50+',
+      username: 'BDeep',
+      rating: '1500+',
+      solved: '300+',
+      contests: '10+',
       color: 'from-yellow-400 to-orange-500',
-      link: 'https://leetcode.com',
+      link: 'https://leetcode.com/u/jnyanadeepbandaru/',
     },
     {
       platform: 'CodeForces',
-      username: 'john_developer',
+      username: '',
       rating: '1800+',
       solved: '300+',
       contests: '40+',
